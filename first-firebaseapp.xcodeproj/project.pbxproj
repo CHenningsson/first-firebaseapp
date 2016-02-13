@@ -12,9 +12,23 @@
 		599CE3A41C6147940042E990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599CE3A21C6147940042E990 /* Main.storyboard */; };
 		599CE3A61C6147940042E990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599CE3A51C6147940042E990 /* Assets.xcassets */; };
 		599CE3A91C6147940042E990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599CE3A71C6147940042E990 /* LaunchScreen.storyboard */; };
+		599CE3B51C61480A0042E990 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 599CE3B41C61480A0042E990 /* Comfortaa-Regular.ttf */; };
+		59D88A951C6F583D00426232 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D88A911C6F583D00426232 /* NotoSans-Bold.ttf */; };
+		59D88A961C6F583D00426232 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D88A921C6F583D00426232 /* NotoSans-BoldItalic.ttf */; };
+		59D88A971C6F583D00426232 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D88A931C6F583D00426232 /* NotoSans-Italic.ttf */; };
+		59D88A981C6F583D00426232 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D88A941C6F583D00426232 /* NotoSans-Regular.ttf */; };
+		59D88A9A1C6F5A7600426232 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D88A991C6F5A7600426232 /* MaterialView.swift */; };
+		59D88A9D1C6F5B0200426232 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D88A9C1C6F5B0200426232 /* Constants.swift */; };
+		59D88A9F1C6F5F3000426232 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D88A9E1C6F5F3000426232 /* MaterialButton.swift */; };
+		59D88AA11C6F633C00426232 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D88AA01C6F633C00426232 /* MaterialTextField.swift */; };
+		59D88AA61C6F69F300426232 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D88AA31C6F69F300426232 /* Bolts.framework */; };
+		59D88AA71C6F69F300426232 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D88AA41C6F69F300426232 /* FBSDKCoreKit.framework */; };
+		59D88AA81C6F69F300426232 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D88AA51C6F69F300426232 /* FBSDKLoginKit.framework */; };
+		F8BA5E8A7A7DCACA6413AB90 /* Pods_first_firebaseapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE01D834BA94FC81BF2E7D /* Pods_first_firebaseapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57F1C04A3E3345F8E4216BD8 /* Pods-first-firebaseapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first-firebaseapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-first-firebaseapp/Pods-first-firebaseapp.release.xcconfig"; sourceTree = "<group>"; };
 		599CE39B1C6147940042E990 /* first-firebaseapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first-firebaseapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		599CE39E1C6147940042E990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		599CE3A01C6147940042E990 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,20 @@
 		599CE3A51C6147940042E990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		599CE3A81C6147940042E990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		599CE3AA1C6147940042E990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599CE3B41C61480A0042E990 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		59D88A911C6F583D00426232 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		59D88A921C6F583D00426232 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		59D88A931C6F583D00426232 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		59D88A941C6F583D00426232 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		59D88A991C6F5A7600426232 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		59D88A9C1C6F5B0200426232 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		59D88A9E1C6F5F3000426232 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		59D88AA01C6F633C00426232 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		59D88AA31C6F69F300426232 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		59D88AA41C6F69F300426232 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		59D88AA51C6F69F300426232 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6BFE01D834BA94FC81BF2E7D /* Pods_first_firebaseapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_first_firebaseapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38FBD92DED00348F8319AA3 /* Pods-first-firebaseapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first-firebaseapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-first-firebaseapp/Pods-first-firebaseapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D88AA61C6F69F300426232 /* Bolts.framework in Frameworks */,
+				59D88AA71C6F69F300426232 /* FBSDKCoreKit.framework in Frameworks */,
+				59D88AA81C6F69F300426232 /* FBSDKLoginKit.framework in Frameworks */,
+				F8BA5E8A7A7DCACA6413AB90 /* Pods_first_firebaseapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169239D877BCD0FD67EE3848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE01D834BA94FC81BF2E7D /* Pods_first_firebaseapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		599CE3921C6147940042E990 = {
 			isa = PBXGroup;
 			children = (
 				599CE39D1C6147940042E990 /* first-firebaseapp */,
 				599CE39C1C6147940042E990 /* Products */,
+				A3F025A7DB4517E461CBE92A /* Pods */,
+				169239D877BCD0FD67EE3848 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +96,12 @@
 		599CE39D1C6147940042E990 /* first-firebaseapp */ = {
 			isa = PBXGroup;
 			children = (
+				59D88AA21C6F69D800426232 /* Frameworks */,
+				59D88A9B1C6F5AE600426232 /* Util */,
+				599CE3B31C6147D00042E990 /* Resourses */,
+				599CE3B21C6147CB0042E990 /* View */,
+				599CE3B11C6147C40042E990 /* Model */,
+				599CE3B01C6147BB0042E990 /* Controller */,
 				599CE39E1C6147940042E990 /* AppDelegate.swift */,
 				599CE3A01C6147940042E990 /* ViewController.swift */,
 				599CE3A21C6147940042E990 /* Main.storyboard */,
@@ -64,6 +112,69 @@
 			path = "first-firebaseapp";
 			sourceTree = "<group>";
 		};
+		599CE3B01C6147BB0042E990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		599CE3B11C6147C40042E990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		599CE3B21C6147CB0042E990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59D88A991C6F5A7600426232 /* MaterialView.swift */,
+				59D88A9E1C6F5F3000426232 /* MaterialButton.swift */,
+				59D88AA01C6F633C00426232 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		599CE3B31C6147D00042E990 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				59D88A911C6F583D00426232 /* NotoSans-Bold.ttf */,
+				59D88A921C6F583D00426232 /* NotoSans-BoldItalic.ttf */,
+				59D88A931C6F583D00426232 /* NotoSans-Italic.ttf */,
+				59D88A941C6F583D00426232 /* NotoSans-Regular.ttf */,
+				599CE3B41C61480A0042E990 /* Comfortaa-Regular.ttf */,
+			);
+			name = Resourses;
+			sourceTree = "<group>";
+		};
+		59D88A9B1C6F5AE600426232 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				59D88A9C1C6F5B0200426232 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		59D88AA21C6F69D800426232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59D88AA41C6F69F300426232 /* FBSDKCoreKit.framework */,
+				59D88AA51C6F69F300426232 /* FBSDKLoginKit.framework */,
+				59D88AA31C6F69F300426232 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3F025A7DB4517E461CBE92A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E38FBD92DED00348F8319AA3 /* Pods-first-firebaseapp.debug.xcconfig */,
+				57F1C04A3E3345F8E4216BD8 /* Pods-first-firebaseapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 599CE3AD1C6147940042E990 /* Build configuration list for PBXNativeTarget "first-firebaseapp" */;
 			buildPhases = (
+				6B15F96D9D50F933EEC4875F /* Check Pods Manifest.lock */,
 				599CE3971C6147940042E990 /* Sources */,
 				599CE3981C6147940042E990 /* Frameworks */,
 				599CE3991C6147940042E990 /* Resources */,
+				1DFDBB68AF8A0D816FDA340D /* Embed Pods Frameworks */,
+				9654E084742076A88049036C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +236,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D88A961C6F583D00426232 /* NotoSans-BoldItalic.ttf in Resources */,
+				599CE3B51C61480A0042E990 /* Comfortaa-Regular.ttf in Resources */,
 				599CE3A91C6147940042E990 /* LaunchScreen.storyboard in Resources */,
 				599CE3A61C6147940042E990 /* Assets.xcassets in Resources */,
+				59D88A981C6F583D00426232 /* NotoSans-Regular.ttf in Resources */,
+				59D88A971C6F583D00426232 /* NotoSans-Italic.ttf in Resources */,
+				59D88A951C6F583D00426232 /* NotoSans-Bold.ttf in Resources */,
 				599CE3A41C6147940042E990 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DFDBB68AF8A0D816FDA340D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-first-firebaseapp/Pods-first-firebaseapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B15F96D9D50F933EEC4875F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9654E084742076A88049036C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-first-firebaseapp/Pods-first-firebaseapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		599CE3971C6147940042E990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D88AA11C6F633C00426232 /* MaterialTextField.swift in Sources */,
+				59D88A9A1C6F5A7600426232 /* MaterialView.swift in Sources */,
 				599CE3A11C6147940042E990 /* ViewController.swift in Sources */,
 				599CE39F1C6147940042E990 /* AppDelegate.swift in Sources */,
+				59D88A9D1C6F5B0200426232 /* Constants.swift in Sources */,
+				59D88A9F1C6F5F3000426232 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,8 +416,14 @@
 		};
 		599CE3AE1C6147940042E990 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38FBD92DED00348F8319AA3 /* Pods-first-firebaseapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/first-firebaseapp",
+				);
 				INFOPLIST_FILE = "first-firebaseapp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Henningsson-Co.first-firebaseapp";
@@ -256,8 +433,14 @@
 		};
 		599CE3AF1C6147940042E990 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F1C04A3E3345F8E4216BD8 /* Pods-first-firebaseapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/first-firebaseapp",
+				);
 				INFOPLIST_FILE = "first-firebaseapp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Henningsson-Co.first-firebaseapp";
@@ -284,6 +467,7 @@
 				599CE3AF1C6147940042E990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
